@@ -32,7 +32,6 @@ Eksempelvis om spiller 3 vinner og det totale antallet stiger som ble brukt var
 
 const fetch = require('node-fetch')
 const URL = 'http://pastebin.com/raw/dJ7cT4AF'
-// Array.apply(null, {length: N}).map(Function.call, Math.random)
 let players = new Array(1337).fill(1)
 let ladders = {3: 17, 8: 10, 15: 44, 22: 5, 39: 56, 49: 75,
               62: 45, 64: 19, 65: 73, 80: 12, 87: 79}
